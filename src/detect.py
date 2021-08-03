@@ -169,9 +169,9 @@ class LapNet_Test:
 
 if __name__ == "__main__":
     model_name = "LapNet_chkpt_better_epoch6767_GPU0_HED_detect.pth"
-    video_path = "../data/test/NVR_ch2_main_20201111164000_20201111170000.avi"
+    video_path = "NVR_ch2_main_20201111164000_20201111170000.avi"
     save_name = "LapNet_Edge_Detect.pt"
-    show_video = True
+    show_video = False
     save_video = False
     save_full_model = False
     
